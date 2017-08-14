@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewArticulo"
+        android:src="@drawable/articulo_defecto"
+        android:scaleType="centerCrop"
+        android:layout_width="0dp"
+        android:layout_height="125dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_weight="40" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="60">
+        <TextView
+            android:id="@+id/textViewNombreArticulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textViewPrecioArticulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
